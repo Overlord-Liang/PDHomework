@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>button_icon/three_lines.svg</file>
+        <file>button_icon/gear.svg</file>
+        <file>button_icon/Account.svg</file>
+        <file>button_icon/Chat.svg</file>
+        <file>button_icon/Schedual.svg</file>
+    </qresource>
+</RCC>
