@@ -1012,26 +1012,6 @@ QLabel{
       <string>⬇</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_nowDateTime_2">
-     <property name="geometry">
-      <rect>
-       <x>200</x>
-       <y>400</y>
-       <width>201</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Microsoft YaHei</family>
-       <pointsize>-1</pointsize>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>物联网工程2023级1班-张祖宁</string>
-     </property>
-    </widget>
    </widget>
    <zorder>label</zorder>
    <zorder>pushButton_weather</zorder>
