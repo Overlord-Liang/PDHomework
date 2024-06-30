@@ -77,7 +77,7 @@ void Reminder::checkAndWriteFile(const QString fileName)
     QString title = ui->plainTextEdit_Title->toPlainText();
     QString content = ui->plainTextEdit_Content->toPlainText();
 
-    QFile jsonFile(QString(".\\scheduleFile\\%1.json").arg(fileName));
+    QFile jsonFile(QString("D:\\FinalHomework\\Calendar\\scheduleFile\\%1.json").arg(fileName));
 
     if (jsonFile.exists()) {
         // 文件存在，以读写模式打开

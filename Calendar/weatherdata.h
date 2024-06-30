@@ -25,9 +25,9 @@ class Today{
         int low;
         int aqi;
         Today(){
-            date ="2022-10-20";
+            date ="2024-06-30";
             week = "0";
-            city ="广州";
+            city ="北京";
 
             ganmao ="感冒指数";
 
@@ -58,7 +58,7 @@ public:
     QString fl;
     int aqi;
     Day(){
-        date ="2022-10-20";
+        date ="2024-06-30";
         week ="周五";
         type ="多云";
         high = 0;

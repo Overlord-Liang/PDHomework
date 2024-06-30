@@ -70,6 +70,12 @@ background:rgba(0, 255, 127,0.3);
       <bold>true</bold>
      </font>
     </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
     <property name="styleSheet">
      <string notr="true">Qlabel{
 	font-size:15px;
@@ -77,10 +83,16 @@ background:rgba(0, 255, 127,0.3);
 }</string>
     </property>
     <property name="text">
-     <string>Wearher in Nanchang</string>
+     <string>Wearher in Beijing</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_temperature">

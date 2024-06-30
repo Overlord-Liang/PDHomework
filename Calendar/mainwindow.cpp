@@ -105,7 +105,7 @@ void MainWindow::drawCalendar(QDate nowdate,int firstday_week){
     //qDebug()<<nowdate.toString("yyyy-MM-dd");
     selectedDate = nowdate;             //更新类中的selectedData
 
-    qDebug()<<nowdate.toString()<<"huachurili";
+    qDebug()<<nowdate.toString();
     for(int i = firstday_week;i<=42;i++){//找到第一天
         QPushButton * daybutton = ui->groupBox_Buttons->findChild<QPushButton *>("pushButton_"+QString::number(i));//查找第一天后面的label
         if(i<=nowdate.daysInMonth()+firstday_week-1){//所有在本月的按钮控件
@@ -131,7 +131,7 @@ void MainWindow::findReminder(QString fileName)//更新日程
 {
     ui->label_weekLeft->setText(fileName+"\n"+weeks[selectedDate.dayOfWeek()-1]);
 
-    QFile jsonFile(QString(".\\scheduleFile\\%1.json").arg(fileName));
+    QFile jsonFile(QString("D:\\FinalHomework\\Calendar\\scheduleFile\\%1.json").arg(fileName));
     clearLayout(layout);
     if (jsonFile.exists()) {
         // 文件存在，以只读模式打开
